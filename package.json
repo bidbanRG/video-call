@@ -1,8 +1,10 @@
 {
-	"name": "client",
+	"name": "video-calling-app",
 	"version": "0.1.0",
 	"private": true,
-	"proxy": "https://warm-wildwood-81069.herokuapp.com",
+	"engines":{
+		"node":"14.13.7"
+	},
 	"dependencies": {
 		"@material-ui/core": "^4.11.3",
 		"@material-ui/icons": "^4.11.2",
